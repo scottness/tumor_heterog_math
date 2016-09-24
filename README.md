@@ -1,2 +1,4 @@
 # tumor_heterog_math
-scripts for analyzing tumor heterogeneity via MATH score
+Set of R scripts for analyzing tumor heterogeneity and MATH scores
+Scott Ness, Sep 2016 sness@salud.unm.edu
+
