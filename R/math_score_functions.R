@@ -33,4 +33,14 @@ library(pathview)
 library(gage)
 library(topGO)
 library(biomaRt)
+library(org.Hs.eg.db)
+egSYMBOL <- toTable(org.Hs.egSYMBOL)
+egREFSEQ <- toTable(org.Hs.egREFSEQ)
+egENSEMBL <- toTable(org.Hs.egENSEMBL)
+
+library(TxDb.Hsapiens.UCSC.hg19.knownGene)
+if (!exists("txdb")) {
+    txdb <- TxDb.Hsapiens.UCSC.hg19.knownGene
+}
+
 # 
